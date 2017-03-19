@@ -6,3 +6,13 @@ process.stdin.on('data', (text) => {
     console.log('Hello ' + text)
     process.exit()
 })
+
+
+console.log('How old are you ?')
+
+process.stdin.on('data', (text) => {
+
+  process.exit()
+
+}
+
