@@ -1,6 +1,6 @@
 function storeAge(){
     agedonne = console.log("How old are you ?");
-}
+};
 
 function birthdate(agedonne){
     var today = new Date().getFullYear();
